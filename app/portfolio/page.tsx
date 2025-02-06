@@ -25,26 +25,25 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-4">
       <h2 className="text-4xl font-bold text-white">About me</h2>
-      <div className="h-[3px] bg-gradient-to-r from-green-600 to-green-800 w-16 rounded-xl" />
-      <p className="text-zinc-300 leading-relaxed">
-        I&apos;m Albert Font Fernández, a 24-year-old Full Stack Developer with
-        expertise in React, TypeScript, Node.js, and cloud technologies. As the
-        Chief Technology Officer at Fined, I lead the development of an online
-        course platform, ensuring seamless user experiences with modern web
-        technologies like Supabase, Stripe, and Tailwind CSS. I thrive on
-        transforming complex challenges into simple, elegant, and intuitive
-        solutions. Passionate about cutting-edge technologies, I&apos;m always
-        eager to expand my knowledge and refine my skills. I emphasize
-        scalability, maintainability, and performance, ensuring that the
-        software I build is not just functional but also robust and adaptable.
-        My goal is to develop applications that are efficient, user-friendly,
-        and visually appealing, while adding a personal touch to create engaging
-        digital experiences.
+      <div className="h-2 bg-gradient-to-r from-green-600 to-green-800 w-16 rounded-xl" />
+      <p className="text-white text-lg">
+        I&apos;m Flutter Developer, Android Developer and Tech Educator who
+        provides services for digital programming and design content needs, for
+        all businesses with more than 2 years of experience. I enjoy turning
+        complex problems into simple, beautiful and intuitive solutions. I am
+        very much interested in new technologies and always eager to learn new
+        technologies which enhance my knowledge. I always try to use
+        Object-Oriented Techniques to make the project Generic which can be used
+        not only at one time but only the slight modification in my project that
+        can be used for different purposes. My job is to build your applications
+        so that it is functional, user-friendly and attractive as well.
+        Moreover, I add personal touch to your product and make sure that is
+        eye-catching and easy to use.
       </p>
       <h2 className="text-2xl font-bold text-white mt-8">
         What Can I do for your needs
       </h2>
-      <p className="text-zinc-300 leading-relaxed">
+      <p className="text-white text-lg">
         It is easier to entrust the work to the experts because they are able to
         provide the best results with reliable quality.
       </p>
