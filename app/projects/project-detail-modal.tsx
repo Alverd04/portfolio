@@ -1,7 +1,7 @@
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { ExternalLink, Github } from "lucide-react";
 import Image from "next/image";
-import { Project } from "./page";
+import type { Project } from "./page";
 
 interface ProjectDetailModalProps {
   project: Project;
@@ -16,7 +16,7 @@ export function ProjectDetailModal({
 }: ProjectDetailModalProps) {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl bg-zinc-900 border-zinc-800 p-0">
+      <DialogContent className="max-w-4xl bg-zinc-900 border-zinc-800 p-0 max-h-screen lg:max-h-[95vh] overflow-y-auto [&>button]:bg-black [&>button]:text-white [&>button]:hover:bg-zinc-800 no-scrollbar">
         <div className="relative h-[300px] w-full">
           <Image
             src={project.image || "/placeholder.svg"}

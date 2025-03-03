@@ -18,6 +18,31 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    title: "MotoLens",
+    description:
+      "A web app that allows users to scan a bike and retrieve detailed information about it. Designed to help enthusiasts, buyers, and mechanics quickly identify bike models and specifications.",
+    image: "/projects/motolens.png",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "AI",
+      "Computer Vision",
+    ],
+    githubUrl: "https://github.com/your-repo",
+    liveUrl: "https://motolens-ai.com",
+    features: [
+      "AI-powered bike recognition",
+      "Instant retrieval of bike details and specifications",
+      "Database of various motorcycle models",
+      "User-friendly interface for seamless scanning",
+      "Integration with community-driven bike information updates",
+    ],
+    technicalDetails:
+      "Developed using Next.js 14 with TypeScript for performance and maintainability. The UI is built with Tailwind CSS for a clean and responsive experience. The backend utilizes Supabase for authentication and data storage, while AI-driven computer vision models analyze bike images. The app is deployed on Vercel with automated CI/CD pipelines.",
+  },
+  {
     title: "Edin",
     description:
       "An AI-powered recruitment tool that analyzes CVs and identifies the best candidates based on a given prompt. Designed to streamline the hiring process with accurate and unbiased recommendations.",
