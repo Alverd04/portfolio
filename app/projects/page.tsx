@@ -30,7 +30,7 @@ const projects: Project[] = [
       "AI",
       "Computer Vision",
     ],
-    githubUrl: "https://github.com/your-repo",
+    githubUrl: "https://github.com/Alverd04",
     liveUrl: "https://motolens-ai.com",
     features: [
       "AI-powered bike recognition",
@@ -48,7 +48,7 @@ const projects: Project[] = [
       "An AI-powered recruitment tool that analyzes CVs and identifies the best candidates based on a given prompt. Designed to streamline the hiring process with accurate and unbiased recommendations.",
     image: "/projects/edin.png",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "AI"],
-    githubUrl: "https://github.com/your-repo",
+    githubUrl: "https://github.com/Alverd04",
     liveUrl: "https://edin-hr-nextjs-627830091010.europe-west1.run.app/",
     features: [
       "AI-driven CV analysis",
